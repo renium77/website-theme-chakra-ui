@@ -27,11 +27,12 @@ function Navbar() {
         bg="white"
         color="black"
         opacity="30"
+        pt='50px'
         >
 
       <Flex align="center" >
         <Link>
-            <Heading as="h1" size="lg" textDecoration='none'>
+            <Heading as="h1" size="xl" textDecoration='none'>
                 ninad dere
             </Heading>
         </Link>

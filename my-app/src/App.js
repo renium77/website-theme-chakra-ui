@@ -5,6 +5,7 @@ import {
   theme,
 } from '@chakra-ui/react';
 import Navbar from './components/Navbar';
+import Hero from './components/Hero';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
   return (
     <ChakraProvider theme={theme}>
       <Navbar/>
+      <Hero/>
     </ChakraProvider>
   );
 }
