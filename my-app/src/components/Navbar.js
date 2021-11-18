@@ -56,12 +56,11 @@ function Navbar() {
           <DrawerOverlay/>
                                     <DrawerContent>
                                       <DrawerBody>
-                                        <DrawerHeader borderBottomWidth="1px"><Link to="/international" color="black" fontSize="lg">International Tours</Link></DrawerHeader>
-                                        <DrawerHeader borderBottomWidth="1px"><Link to="/domestic" color="black" fontSize="lg">Domestic Tours</Link></DrawerHeader>
-                                        <DrawerHeader borderBottomWidth="1px"><Link to="/customise" color="black" fontSize="lg">Customise</Link></DrawerHeader>
-                                        <DrawerHeader borderBottomWidth="1px"><Link to='/testimonial' color="black" fontSize="lg">Testimonials</Link></DrawerHeader>
-                                        <DrawerHeader borderBottomWidth="1px"><Link to='/blog' color="black" fontSize="lg">More</ Link></DrawerHeader>
-                                        <DrawerHeader borderBottomWidth="1px"><Link to='/contactus' color="black" fontSize="lg">Contact Us</ Link></DrawerHeader>
+                                        <DrawerHeader borderBottomWidth="1px"><Link  color="black" fontSize="lg">projects</Link></DrawerHeader>
+                                        <DrawerHeader borderBottomWidth="1px"><Link  color="black" fontSize="lg">about</Link></DrawerHeader>
+                                        <DrawerHeader borderBottomWidth="1px"><Link  color="black" fontSize="lg">posts</Link></DrawerHeader>
+                                        <DrawerHeader borderBottomWidth="1px"><Link  color="black" fontSize="lg">work</Link></DrawerHeader>
+                                        <DrawerHeader borderBottomWidth="1px"><Link  color="black" fontSize="lg">links</ Link></DrawerHeader>
                                       </DrawerBody>
                                     </DrawerContent>
         </Drawer>

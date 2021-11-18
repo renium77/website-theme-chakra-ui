@@ -1,11 +1,11 @@
 import React from 'react'
-import { Container, Link, Text } from '@chakra-ui/layout'
+import { Container, Divider, Link, Text } from '@chakra-ui/layout'
 import { chakra } from '@chakra-ui/system'
 
 function HeroAbout() {
     return (
         <div>
-            <Container maxW='4xl' pt='50px'>
+            <Container maxW='6xl' pt='50px'>
                 <Text fontSize={{base:'xl', md:'2xl'}}>
                     hello! i’m <chakra.span fontWeight='bold'>ninad.</chakra.span> i’ve been building projects for a couple of years now
                     and have had good success at some and have failed at many. previously i 
@@ -23,8 +23,10 @@ function HeroAbout() {
                 </Text>
 
                 <Text fontSize={{base:'xl', md:'2xl'}} pt='20px'>
-                    my twitter is <Link fontWeight='bold'>ninadismyname</Link> and my e-mail is <Link fontWeight='bold'>dereninad@gmail.com .</Link>
+                    my twitter is <Link fontWeight='bold'>ninadismyname</Link> and my e-mail is <Link fontWeight='bold'>dereninad@gmail.com.</Link>
                 </Text>
+
+                <Divider borderColor='black' pt='20px'/>
             </Container>
         </div>
     )
