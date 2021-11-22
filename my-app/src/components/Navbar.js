@@ -4,6 +4,7 @@ import { Button, Menu, IconButton, extendTheme } from '@chakra-ui/react'
 import { AiOutlineMenu } from "react-icons/ai";
 import { useDisclosure } from '@chakra-ui/hooks';
 import { Drawer,DrawerContent, DrawerBody, DrawerOverlay, DrawerHeader } from '@chakra-ui/modal';
+import { FaGithub } from 'react-icons/fa';
 
 function Navbar() {
 
