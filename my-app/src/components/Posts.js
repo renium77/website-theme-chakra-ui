@@ -1,7 +1,5 @@
 import { Box, Container, Link, SimpleGrid, Text } from '@chakra-ui/layout'
-import { Textarea } from '@chakra-ui/textarea'
 import React from 'react'
-
 
 const post_links = [
     {
@@ -46,9 +44,9 @@ function Posts() {
                         fontWeight='bold' 
                         >{post_title.title}</Link>
                     ))}
-                    
                     </SimpleGrid>
                 </Box>
+
                 
             </Container>
         </div>
