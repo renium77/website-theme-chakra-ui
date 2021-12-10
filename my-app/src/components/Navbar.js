@@ -5,6 +5,7 @@ import { AiOutlineMenu } from "react-icons/ai";
 import { useDisclosure } from '@chakra-ui/hooks';
 import { Drawer,DrawerContent, DrawerBody, DrawerOverlay, DrawerHeader } from '@chakra-ui/modal';
 import { FaGithub } from 'react-icons/fa';
+import { BrowserRouter } from 'react-router-dom'
 
 function Navbar() {
 

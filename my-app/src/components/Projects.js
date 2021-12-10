@@ -1,9 +1,11 @@
+import { Text } from '@chakra-ui/layout'
 import React from 'react'
+import Navbar from './Navbar'
 
 function Projects() {
     return (
         <div>
-            <Nav/>
+            <Text>Text</Text>
         </div>
     )
 }
